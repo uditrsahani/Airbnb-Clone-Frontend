@@ -1,0 +1,550 @@
+/* MENU SECTION */
+.menu_section {
+  background-color: black;
+  min-height: 100vh;
+}
+
+/* MENU FLEX */
+.menu_flex {
+  display: flex;
+  min-height: 7px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  align-items: center;
+  margin: 0 50px;
+}
+
+/* MENU COMPONENTS */
+/* MENU PADDING */
+.menu_flex > .left,
+.center,
+.right {
+  padding: 15px 15px;
+}
+
+img {
+  height: 40px;
+  color: white;
+}
+
+/* MENU CENTER TEXT FLEX */
+.center_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 350px;
+}
+
+/* MENU LEFT ICON FLEX */
+.right_flex {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+}
+
+/* SEARCH BAR COMPONENTS */
+/* INPUT TYPE TEXT */
+input[type="text"] {
+  border: none;
+  border-left: 1px grey solid;
+  padding: 10px 15px;
+}
+
+#where_are_you_going_input {
+  border-left: none;
+}
+
+/* INPUT BORDER NON WHEN SELECTED */
+date:focus,
+date:focus,
+input:focus,
+input:focus {
+  outline: none;
+}
+
+/* PADDING RIGHT ON THE HOMEPAGE */
+input[type="text"],
+input[type="date"] {
+  padding: 10px 15px;
+  background-color: transparent;
+  padding: 10px 20px;
+}
+
+input[type="text"]:hover,
+input[type="date"]:hover {
+  /* background-color: rgb(116, 116, 116); */
+}
+
+/* SEARCH ICON ON HOMEPAGE */
+.search_icon {
+  color: white;
+  background-color: red;
+  padding: 15px;
+  border-radius: 30px;
+  margin: 10px 10px;
+}
+
+.search_box {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+
+.help_ukraine_banner {
+  display: flex;
+  margin: 0 50px;
+  background-color: #ff385c;
+  height: 60vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  border-radius: 10px;
+}
+
+/* HELP UKRAINE COMPONENTS */
+.help_ukraine_title {
+  color: white;
+  font-size: 40px;
+}
+
+.media_query_help_ukraine_title{
+  display: none;
+}
+
+/* HELP UKRAINE's BANNER LEARN MORE BUTTON */
+.help_ukraine_banner > .learn_more {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: white 1px solid;
+  border-radius: 10px;
+  color: white;
+  margin-top: 25px;
+}
+
+/* FORM FLEX */
+.form_flex {
+  display: flex;
+  color: white;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50px;
+  margin: auto;
+  align-items: center;
+}
+
+/* I'm FLEXIBLE SECTION */
+.I_am_flexible {
+  height: 60vh;
+}
+
+/* I AM FLEXIBLE SECTION */
+.I_am_flexible {
+  background-image: url("img/I\ am\ flexible.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 50px;
+  z-index: 10;
+  border-radius: 10px;
+  height: 490px;
+}
+
+/* HALF BACKGROUND COLOR FOR FLEXIBLE BANNER */
+.I_am_flexible_section {
+  height: 50vh;
+  background-color: black;
+  margin-top: 0;
+}
+
+/* I AM FLEXIBLE FLEX */
+.I_am_flexible_flex {
+  /* height: 50vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+/* I AM FLEXIBLE BUTTON */
+.I_am_flexible_flex > .I_am_flexible_button {
+  color: #b949ab;
+  background-color: rgba(0, 0, 0, 0)
+    linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126) 135.12%) repeat
+    scroll 0% 0% padding-box text !important;
+  padding: 14px 28px;
+  border-radius: 30px;
+  border-style: none;
+  font-size: 20px;
+  
+}
+
+/* I AM FLEXIBLE TITLE */
+.I_am_flexible_flex > .I_am_flexible_title {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 13%;
+}
+
+/* INPIRATION SECTION */
+.inspiration_section {
+  /* margin-top: 5vh; */
+  /* height: 80vh; */
+}
+
+/* INSPIRATION FLEX */
+.inspiration_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 50px;
+  /* margin: 0; */
+}
+
+/* INSPIRATION FLEX */
+.inspiration_title {
+  margin: 210px 0 50px 50px;
+  font-size: 35px;
+}
+
+.hua_hin_img {
+  height: 187px;
+}
+
+.hua_hin {
+  height: 330px;
+  width: 280px;
+  background-color: #d93b30;
+}
+
+.bangkok_img {
+  height: 187px;
+}
+
+.bangkok {
+  height: 330px;
+  width: 280px;
+  background-color: #bc1a6e;
+}
+
+.cha-am_img {
+  height: 187px;
+}
+
+.cha-am {
+  height: 330px;
+  width: 280px;
+  background-color: #cc2d4a;
+}
+
+.pak_chong_img {
+  height: 187px;
+}
+
+.pak_chong {
+  height: 330px;
+  width: 280px;
+  background-color: #de3151;
+}
+
+.inspiration_flex > div {
+  border-radius: 10px;
+}
+
+.inspiration_flex > div > img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box_title {
+  color: white;
+  margin: 12px 0 0 12px;
+}
+
+.box_km {
+  color: white;
+  margin: 12px 0 0 12px;
+}
+
+/* THINGS TO DO FLEX */
+.things_to_do_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+/* THINGS TO DO COMPONENTS */
+/* THINGS TO DO ONE DIV */
+.thing_to_do_one {
+  background-image: url("img/thing\ to\ do\ 1.png");
+  background-size: cover;
+  /* background-position:center; */
+  width: 50%;
+  height: 80vh;
+  /* margin-right: 5%; */
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.thing_to_do_two {
+  background-image: url("img/thing\ to\ do\ 2.png");
+  background-size: cover;
+  /* background-position:center; */
+  width: 50%;
+  border-radius: 10px;
+  margin-left: 10px;
+  height: 80vh;
+}
+
+.thing_to_do_one > h1 {
+  color: white;
+  padding: 50px 0 0 50px;
+}
+.thing_to_do_two > h1 {
+  color: white;
+  padding: 50px 0 0 50px;
+}
+
+/* SHOP GIFT CARD SECTION */
+.shop_airbnb_gift_cards_section {
+  height: 100vh;
+  /* width: 100vw; */
+}
+
+.experiences_button {
+  background-color: white;
+  border-style: none;
+  padding: 15px 20px;
+  margin: 20px 0 0 50px;
+  border-radius: 10px;
+}
+
+.discover_airbnb_experience_title {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.discover_airbnb_experience_title2{
+  display: none;
+}
+
+
+/* SHOP AIRBNB GIFT CARDS FLEX*/
+.shop_airbnb_gift_cards {
+  display: flex;
+}
+
+.shop_gift_card_left_flex {
+  padding-left: 50px;
+}
+
+.shop_gift_card_right_flex {
+  position: absolute;
+  right: 0;
+}
+
+.shop_gift_card_right_flex > img {
+  height: 450px;
+  margin-top: 100px;
+  /* margin-right: 0; */
+}
+
+.shop_gift_card_left_flex > .gift_card_title {
+  padding-top: 100px;
+  font-size: 40px;
+}
+
+.shop_gift_card_left_flex > .shop_gift_card_learn_more_button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* ASK SUPERHOST SECTION */
+.ask_super_host_section {
+  background-image: url("img/ask\ superhost.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+/* ASK SUPERHOST FLEX */
+.ask_super_host_flex {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+/* Inspiration for future getaways SECTION */
+.inspiration_for_future_gataways_section {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+/* Inspiration for future getaways FLEX */
+.inpiration_top_menu_flex {
+  display: flex;
+}
+
+/* INSPIRATION COMPONENTS */
+/* ASK SUPERHOST TITLE */
+.ask_superhost_title {
+  color: white;
+  font-size: 70px;
+  padding-top: 50px;
+  line-height: 70px;
+}
+
+/* INPIRATION COMPONENTS  */
+/* INPIRATION FOR FUTURE GATAWAYS COMPONENTS */
+.inpiration_top_menu_flex > div {
+  padding: 0 25px 0 0;
+}
+
+/* Inspiration for future getaways FOOTER 1 */
+.destination_for_arts_and_culture_footer {
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.inspiration_for_future_gateaways_title {
+  margin-bottom: 25px;
+}
+.destination_for_arts_and_culture_footer > div {
+  padding-right: 20%;
+}
+
+.footer_title,
+.footer_name {
+  /* font-weight: bold;*/
+  width: 100px;
+}
+
+/* HIDE IN CSS */
+.hide_in_css{
+  display: none;
+}
+
+.ask_superhost_button {
+  padding: 15px 10px;
+  width: 180px;
+  font-weight: bold;
+  color: #222222;
+  background-color: white;
+  border-style: none;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 250px;
+}
+
+/* FOOTER2 SECTION */
+.footer2_section {
+  background-color: #f7f7f7;
+  margin-top: 50px;
+ 
+}
+
+/* FOOTER2 FLEX */
+.footer2_flex {
+  display: flex;
+  margin: 0px 0 0 50px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+/* COPYRIGTH FOOTER SECTION */
+.copyright_footer_section {
+  background-color: #f7f7f7;
+}
+
+.copyright_footer_flex_container {
+  padding-top: 50px;
+  margin: 0 50px 0 50px;
+  display: flex;
+  
+}
+
+.copyright_footer_left_flex {
+  display: flex;
+  box-sizing: border-box;
+  width: 30%;
+  justify-content: center;
+}
+
+.copyright_footer_left_flex > div {
+  padding: 0 4px;
+}
+
+.copyright_footer_left_flex > .wide_text {
+  width: 130px;
+}
+
+.copyright_footer_right_flex {
+  display: flex;
+  margin-left: 40%;
+  box-sizing: border-box;
+}
+
+.copyright_footer_right_flex > div,
+i {
+  padding: 10px;
+}
+
+.social_icon {
+  margin-left: 30px;
+}
+
+.copyright_footer_flex_container {
+  display: flex;
+}
+
+.copyright_www_icon {
+  height: 15px;
+  margin-top: 12px;
+}
+
+.date_input_box {
+  border: transparent;
+  border-left: 1px grey solid;
+}
+
+/* FOOTER 1 AND FOOTER COMPONENTS */
+.footer1_hr {
+  margin-top: 15px;
+  color: rgb(189, 173, 173);
+}
+
+/* FOOTER2 COMPONENT */
+.footer2_flex > div {
+  padding-right: 7.8%;
+}
+
+.footer2_flex > div > div {
+  width: 250px;
+  padding-bottom: 12px;
+}
+
+.footer2_title {
+  font-weight: bold;
+}
+
+.footer2_hr {
+  margin-top: 15px;
+  color: rgb(189, 173, 173);
+  margin: 30px 20px 0px 20px;
+}
+
+.copyright_footer_section2{
+  display: none;
+}

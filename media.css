@@ -1,0 +1,441 @@
+@media screen and (max-width: 500px) {
+  .menu_section {
+    background-color: black;
+    min-height: 45vh;
+  }
+
+  .menu_flex {
+    visibility: hidden;
+    display: none;
+  }
+
+  /*SEARCH INPUT */
+  input[type="text"] {
+    border: none;
+    border-left: 1px grey solid;
+    padding: 2px 2px;
+  }
+
+  input[type="text"],
+  input[type="date"] {
+    padding: 2px 2px;
+  }
+
+  #where_are_you_going_input {
+    width: 160%;
+  }
+
+  #date {
+    width: 90%;
+  }
+
+  #date2 {
+    width: 90%;
+  }
+
+  #guest {
+    width: 70%;
+  }
+
+  .search_icon {
+    font-size: 7px;
+    padding: 5px;
+    position: absolute;
+    left: 23%;
+
+    color: white;
+  }
+
+  ::placeholder {
+    color: black;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  .date_input_box {
+    display: none;
+  }
+
+  #guest {
+    display: none;
+  }
+
+  .search_box {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    /* margin-left: 35px; */
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .form_flex {
+    width: 400px;
+    height: 50px;
+  }
+
+  /* HELP UKRAINE REFUGEES BANNER */
+  .help_ukraine_banner {
+    flex-direction: column;
+    margin: 0 20px;
+    height: 31vh;
+  }
+
+  .help_ukraine_title {
+    text-align: center;
+    line-height: 1.1em;
+    font-size: 30px;
+    display: none;
+  }
+
+  .media_query_help_ukraine_title {
+    text-align: center;
+    line-height: 1.1em;
+    font-size: 30px;
+    display: block;
+  }
+
+  .help_ukraine_banner > .learn_more {
+    margin-top: 10px;
+  }
+
+  /* I AM FLEXIBLE SECTION */
+  .I_am_flexible {
+    margin: 0 20px;
+  }
+
+  .I_am_flexible_flex > .I_am_flexible_button {
+    padding: 11px 22px;
+    margin-bottom: 60px;
+    background-color: rgb(255, 255, 255) none repeat scroll 0% 0% !important;
+  }
+
+  .I_am_flexible_flex > .I_am_flexible_title {
+    text-align: center;
+    line-height: 2rem;
+    font-size: 30px;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-bottom: 30px;
+    padding: 0 30px;
+  }
+
+  .I_am_flexible_section {
+    height: 35vh;
+    background-color: black;
+    margin-top: 0;
+  }
+
+  .I_am_flexible_flex {
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  /* INSPIRATION SECTION */
+  .inspiration_flex {
+    overflow: auto;
+    margin: 0 20px;
+  }
+
+  .inspiration_flex > div {
+    margin-right: 15px;
+  }
+
+  .inspiration_title {
+    margin: 230px 0 20px 20px;
+    font-size: 25px;
+  }
+
+  /* INPIRATION PLACES BOX */
+  .hua_hin_img {
+    height: 140px;
+  }
+  
+  .hua_hin {
+    height: 300px;
+    width: 280px;
+    background-color: #d93b30;
+  }
+  
+  .bangkok_img {
+    height: 140px;
+  }
+  
+  .bangkok {
+    height: 300px;
+    width: 280px;
+    background-color: #bc1a6e;
+  }
+
+  .cha-am_img {
+    height: 140px;
+  }
+  
+  .cha-am {
+    height: 300px;
+    width: 280px;
+    background-color: #cc2d4a;
+  }
+
+  .pak_chong_img {
+    height: 140px;
+  }
+  
+  .pak_chong {
+    height: 300px;
+    width: 280px;
+    background-color: #de3151;
+  }
+
+
+  /* THINGS TO DO SECTION */
+  .things_to_do_flex {
+    margin: 0 20px;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .thing_to_do_one {
+    width: 100%;
+    margin-right: 0px;
+    justify-content: center;
+    height: 53vh;
+    margin: 0 20px;
+    margin-bottom: 30px;
+    line-height: 1.7em;
+    font-size: 25px;
+  }
+
+  .thing_to_do_two {
+    width: 100%;
+    margin-left: 0;
+    height: 53vh;
+    margin: 0 20px;
+    line-height: 1.7em;
+    font-size: 25px;
+  }
+
+  .discover_airbnb_experience_title2 {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    display: block;
+    line-height: 1em;
+  }
+
+  .discover_airbnb_experience_title{
+    display: none;
+  }
+
+  .experiences_button{
+    font-weight: 900;
+    letter-spacing: 0.1em;
+  }
+
+  /* SHOP GIFT CARD SECTION */
+  .shop_airbnb_gift_cards_section {
+    /* height: 50vh; */
+    /* width: 100vw; */
+  }
+
+  .shop_airbnb_gift_cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shop_gift_card_right_flex {
+    position: relative;
+    bottom: 0;
+  }
+
+  .shop_gift_card_right_flex > img {
+    height: 320px;
+    margin-top: 50px;
+    /* margin-right: 0; */
+    margin-left: 30px;
+    overflow: hidden;
+  }
+
+  .shop_gift_card_left_flex > .shop_gift_card_learn_more_button {
+    padding: 15px 30px;
+  }
+
+  .gift_card_title{
+    line-height: 1em;
+  }
+
+  .shop_gift_card_left_flex > .gift_card_title {
+    padding-top: 50px;
+    font-size: 40px;
+  }
+
+  .shop_airbnb_gift_cards_section {
+    height:auto;
+    /* width: 100vw; */
+  }
+  
+
+  /* ASK SUPERHOST SECTION */
+  .ask_super_host_section {
+    background-image: url("img/ask\ superhost.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: auto 60vh;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-position-x: center;
+  }
+
+  .ask_superhost_title {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 35px;
+    line-height: 1.1em;
+    font-weight: 900;
+  }
+
+  .ask_superhost_button {
+    position: relative;
+    top: 150px;
+    font-weight: 900;
+    right: 30px;
+    letter-spacing: 0.1em;
+  }
+
+  /* INSPIRATION GATEWAY SECTION */
+  .inspiration_for_future_gataways_section {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+  }
+
+  .inpiration_top_menu_flex > div{
+   /* width: 50vw; */
+   white-space: nowrap;
+  }
+  .inpiration_top_menu_flex {
+    overflow: hidden;
+  }
+
+  /* FOOTER 2 SECTION */
+  .footer2_section {
+ 
+  }
+
+  .footer2_flex {
+    flex-direction: column;
+  }
+
+  
+
+  /* HIDE SOCIAL ICON IN THE FOOTER */
+  .social_icon {
+    visibility: hidden;
+  }
+
+  .copyright_footer_section{
+    display: none;
+    
+  }
+
+  .copyright_footer_section2{
+    display: block;
+    /* margin-left: 20px; */
+    line-height: 1.5em;
+    
+  }
+
+  .flex_container_media_footer > div {
+    margin-right: 10px;
+  }
+
+  .flex_container_media_footer > .mediaf6 {
+    margin-right: 20px;
+  }
+
+  .flex_container_media_footer{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .flex_container_media_footer > img{
+    padding-right: 10px;
+    position: relative;
+    bottom: 7px;
+  }
+
+  .flex_container_media_footer2{
+    margin-left: 20px;
+  }
+
+  .flex_container_media_footer3{
+    margin-left: 20px;
+  }
+
+  .hide_in_media{
+    display: none;
+  }
+
+  .show_media_css{
+    display: block;
+    display: flex;
+  }
+  /* .media_footer_2_container{
+    display: flex;
+    flex-direction: column;
+    
+  } */
+
+  /* LAST FOOTER */
+  /* .copyright_footer_right_flex{
+    display: flex;
+    margin-left: 0%;
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+  } */
+
+  /* .copyright_footer_right_flex > div,
+  i{
+    padding: 0;
+  }
+
+  .copyright_footer_left_flex > .wide_text {
+    width: 0px;
+  } */
+
+  /* .copyright_footer_section{
+    visibility: hidden;
+  } */
+
+  .mediaf1 {
+  }
+
+  .mediaf2,
+  .mediaf3,
+  .mediaf4,
+  .mediaf5,
+  .mediaf6,
+  .mediaf7 {
+  }
+
+  .copyright_footer_section {
+  }
+
+  /* SHOW THE COPYRIGHT MEDIA */
+.flex_container_media_footer, .flex_container_media_footer2, .flex_container_media_footer3{
+  display: flex;
+}
+
+}
